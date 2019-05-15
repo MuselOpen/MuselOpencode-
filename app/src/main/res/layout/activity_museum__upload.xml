@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Museum_Upload"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose a \nmuseum to \nupload from"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+
+    <GridView
+        android:id="@+id/grids"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:numColumns="2"
+        />
+</LinearLayout>
